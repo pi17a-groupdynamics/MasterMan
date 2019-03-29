@@ -90,51 +90,75 @@ Not applicable.
 * REQ-1:	Количество обязательных данных для подачи заявки должно быть минимизировано.
 * REQ-2:	Заявка должна отправляться в БД для дальнейшей обработки.
 
-3.4	System Feature «Database»
-3.4.1	Description and Priority
+#### 3.4	System Feature «Database»
+
+3.4.1	Description and Priority  
 Продукт должен обеспечивать хранения информации о заявках в БД. Приоритет высокий.
+
 3.4.2	Functional Requirements
-REQ-1:	БД располагается на сервере.
-REQ-2:	Используется СУБД PostgreSQL.
-REQ-3:	Внутренняя структура БД – таблица заявки и таблицы справочники для хранения информации о заявке.
-3.5	System Feature «Adaptability»
-3.5.1	Description and Priority
+* REQ-1:	БД располагается на сервере.
+* REQ-2:	Используется СУБД PostgreSQL.
+* REQ-3:	Внутренняя структура БД – таблица заявки и таблицы справочники для хранения информации о заявке.
+
+#### 3.5	System Feature «Adaptability»
+
+3.5.1	Description and Priority  
 Сайт должен иметь адаптивный интерфейс. Приоритет высокий.
+
 3.5.2	Functional Requirements
-REQ-1:	Сайт должен иметь версию для всех устройств.
-REQ-2:	Сайт должен одинаково запускаться на любых платформах и в любых браузерах.
-3.6	System Feature «Security»
-3.6.1	Description and Priority
+* REQ-1:	Сайт должен иметь версию для всех устройств.
+* REQ-2:	Сайт должен одинаково запускаться на любых платформах и в любых браузерах.
+
+#### 3.6	System Feature «Security»
+
+3.6.1	Description and Priority  
 Сайт должен обеспечивать безопасноть трафика. Приоритет высокий.
+
 3.6.2	Functional Requirements
-REQ-1:	Необходима поддержка протокола HTTPS.
-3.7	System Feature «Admin account»
-3.7.1	Description and Priority
+* REQ-1:	Необходима поддержка протокола HTTPS.
+
+#### 3.7	System Feature «Admin account»
+
+3.7.1	Description and Priority  
 На сайте необходима авторизация администратора-оператора. Приоритет высокий.
+
 3.7.2	Functional Requirements
-REQ-1:	Аутентифицированные операторы имеют доступ к БД и могут обрабатывать заявки.
-4.	External Interface Requirements (NFR)
-4.1	User Interfaces
+* REQ-1:	Аутентифицированные операторы имеют доступ к БД и могут обрабатывать заявки.
+
+### 4.	External Interface Requirements (NFR)
+
+#### 4.1	User Interfaces
 main.png
 category.png
 advantages.png
 form.png
 review.png
 footer.png
-4.2	Hardware Interfaces
+
+#### 4.2	Hardware Interfaces
 Not applicable.
-4.3	Software Interfaces
+
+#### 4.3	Software Interfaces
 Продукт должен использовать API взаимодействия с БД PostgreSQL.
-5.	Other Nonfunctional Requirements (NFR)
-5.1	Performance Requirements
+
+### 5.	Other Nonfunctional Requirements (NFR)
+
+#### 5.1	Performance Requirements
 Not applicable.
-5.2	Security Requirements
+
+#### 5.2	Security Requirements
 Сайт должен быть защищен протоколом HTTPS.
  
-Appendix A: Glossary
-HTTPS (Hypertext Transport Protocol Secure) – это протокол, который обеспечивает конфиденциальность обмена данными между сайтом и пользовательским устройством. Безопасность информации обеспечивается за счет использования криптографических протоколов SSL/TLS, имеющих 3 уровня защиты.
+### Appendix A: Glossary
+**HTTPS (Hypertext Transport Protocol Secure)**
+> это протокол, который обеспечивает конфиденциальность обмена данными между сайтом и
+пользовательским устройством. Безопасность информации обеспечивается за счет использования криптографических протоколов SSL/TLS, имеющих
+3 уровня защиты.
 
-PostgreSQL - свободная объектно-реляционная система управления базами данных (СУБД). PostgreSQL базируется на языке SQL и поддерживает многие из возможностей стандарта SQL:2011.
+**PostgreSQL** 
+> свободная объектно-реляционная система управления базами данных (СУБД). PostgreSQL базируется на языке SQL и поддерживает
+многие из возможностей стандарта SQL:2011.
 
-API - описание способов (набор классов, процедур, функций, структур или констант), которыми одна компьютерная программа может взаимодействовать с другой программой. 
-
+**API**
+> описание способов (набор классов, процедур, функций, структур или констант), которыми одна компьютерная программа может
+взаимодействовать с другой программой. 
