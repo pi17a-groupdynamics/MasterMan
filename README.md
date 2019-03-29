@@ -128,12 +128,24 @@ Not applicable.
 ### 4.	External Interface Requirements (NFR)
 
 #### 4.1	User Interfaces
-main.png
-category.png
-advantages.png
-form.png
-review.png
-footer.png
+
+##### Main
+![Main](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/main.png)
+
+##### Category
+![Category](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/category.png)
+
+##### Advantages
+![Advantages](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/advantages.png)
+
+##### Form
+![Form](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/form.png)
+
+##### Review
+![Review](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/review.png)
+
+##### Footer
+![Footer](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/footer.png)
 
 #### 4.2	Hardware Interfaces
 Not applicable.
