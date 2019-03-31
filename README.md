@@ -159,22 +159,28 @@ Not applicable.
 ### 4.	External Interface Requirements (NFR) <a name = "nfr"></a>
 #### 4.1	User Interfaces <a name = "user_interfaces"></a>
 ##### Main 
-![Main](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/main.png)
+**Main**
+![Main](https://raw.githubusercontent.com/pi17a-groupdynamics/MasterMan/Resources/main.png) 
 
 ##### Category
-![Category](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/category.png)
+**Category**
+![Category](https://raw.githubusercontent.com/pi17a-groupdynamics/MasterMan/Resources/category.png)
 
 ##### Advantages
-![Advantages](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/advantages.png)
+**Advantages**
+![Advantages](https://raw.githubusercontent.com/pi17a-groupdynamics/MasterMan/Resources/advantages.png)
 
 ##### Form
-![Form](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/form.png)
+**Form**
+![Form](https://raw.githubusercontent.com/pi17a-groupdynamics/MasterMan/Resources/form.png)
 
 ##### Review
-![Review](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/review.png)
+**Review**
+![Review](https://raw.githubusercontent.com/pi17a-groupdynamics/MasterMan/Resources/review.png)
 
 ##### Footer
-![Footer](https://github.com/pi17a-groupdynamics/MasterMan/tree/Resources/footer.png)
+**Footer**
+![Footer](https://raw.githubusercontent.com/pi17a-groupdynamics/MasterMan/Resources/footer.png)
 
 #### 4.2	Hardware Interfaces <a name = "hard_interfaces"></a>
 Not applicable.
