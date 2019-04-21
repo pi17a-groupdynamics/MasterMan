@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from main.models import ServicesTypes, ServicesKinds, Applictions
+
+admin.site.register(ServicesTypes)
+admin.site.register(ServicesKinds)
+admin.site.register(Applictions)
